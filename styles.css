@@ -55,6 +55,7 @@ div {
       animation-name: slide-in;
       animation-duration: 3s;
       animation-iteration-count: infinite;
+      animation-direction: alternate;
     }
 
     @keyframes slide-in {
