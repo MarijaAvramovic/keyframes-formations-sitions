@@ -69,3 +69,18 @@ div {
        scale: 100% 1;
       }
     }
+
+    .btn-transition {
+      border-radius: 8px;
+      border: none;
+      color: rgb(235, 232, 228);
+      background-color: rgb(65, 65, 237);
+      font-size: 3rem;
+      padding: 16px 24px;
+      text-align: center;
+      transition: all 1s ease-in-out;
+      margin-left: 5rem;
+    }
+    .btn-transition:hover {
+      transform: scale(1.4);
+    }
