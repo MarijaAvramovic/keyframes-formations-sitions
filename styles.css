@@ -2,9 +2,9 @@ div {
   width: 200px;
       height: 200px;
       background: radial-gradient(circle at 30% 30%, #ff6ec7, #7873f5);
-      border-radius: 50%;
+      /* border-radius: 50%; */
       display: flex;
       justify-content: center;
       align-items: center;
-    transform:  scale(1.4,1.4) ;
+    transform:  skew(14deg) ;
 }
